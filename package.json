@@ -1,0 +1,27 @@
+{
+  "name": "tjanstformedlingssida-be",
+  "version": "1.0.0",
+  "description": "Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tootfarangi90/Tjanstformedlingssida-BE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tootfarangi90/Tjanstformedlingssida-BE/issues"
+  },
+  "homepage": "https://github.com/Tootfarangi90/Tjanstformedlingssida-BE#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
+  }
+}
