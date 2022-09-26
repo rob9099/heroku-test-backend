@@ -3,7 +3,7 @@ const router = express.Router();
 
 
 let users = []
-let test ='1'
+let test ='2'
 
 router.get("/get", (req, res) => {
     headers={"cache-control": "no-cache"}
